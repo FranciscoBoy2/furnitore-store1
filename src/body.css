@@ -1,0 +1,45 @@
+/* .Body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: deepskyblue;
+}
+
+.flags {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: chocolate;
+  font-family: fantasy;
+  transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.kz:hover, .gr:hover, .fr:hover {
+  background-color: chocolate;
+  transform: scale(1.5);
+  background-size: cover;
+  cursor: pointer;
+}
+
+.kz:hover {
+  background-image: url("https://previews.123rf.com/images/maiborodin/maiborodin2209/maiborodin220900433/191203214-kazakhstan-flag-official-colors-vector-illustration.jpg");
+}
+
+.gr:hover {
+  background-image: url("https://previews.123rf.com/images/pytyczech/pytyczech2211/pytyczech221100107/196002341-germany-flag-flat-vector-square-with-rounded-corners-and-dropped-shadow.jpg");
+}
+
+.fr:hover {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQtkryIbNsVTTLNzj_bsSp_IQo0c8rpSbvuQ&s");
+}
+
+.button{
+  border: 2px solid yellow;
+} */
