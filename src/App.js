@@ -1,7 +1,5 @@
 import React from "react";
 import Header from "./header";
-import Body from "./Body";
-
 import "./app.css";
 
 function App() {
@@ -9,8 +7,7 @@ function App() {
     <div className="App">
       <Header />
       {/* <Body/> */}
-    </div> 
-    
+    </div>    
   ); 
 }
  

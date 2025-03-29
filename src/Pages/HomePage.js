@@ -10,6 +10,8 @@ import mask1 from '../assets/images/mask1.png';
 import mask2 from '../assets/images/mask2.png';
 import mask3 from '../assets/images/mask3.png';
 import "./general2.css";
+import { RxButton } from 'react-icons/rx';
+import { GiPauseButton } from 'react-icons/gi';
 const Home = () => {
     return (
         <>
@@ -31,7 +33,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <div style={{ minHeight: "50vh", display: "flex", justifyContent: "space-between", padding: "0 100px", gap: "10px" }}>
+            <div style={{ minHeight: "50vh", display: "flex", justifyContent: "space-between", padding: "0px 100px", gap: "10px" }}>
                 <div style={{ fontSize: "34px", fontWeight: "500", display: "flex", flexDirection: "column", gap: "20px" }}>Why Choose Us<br /><div style={{ fontSize: "14px", fontFamily: "inter", }}>Donec mattis porta eros, aliquet finibus risus interdum at. Nulla<br />vivethe as it was for us to know what was to be done. then hjnejkcncjkns</div>
                     <div className="grid-container" style={{}}>
                         <div className="item" style={{ display: "flex", flexDirection: "column", gap: "5px" }}><TbTruckDelivery />
@@ -56,19 +58,38 @@ const Home = () => {
                 </div>
             </div>
 
-            <div style={{ padding: "0 100px", paddingTop: "100px", display: "flex", flexDirection: "column", gap: "20px" }}>
+            <div style={{ padding: "100px 100px",display: "flex", flexDirection: "column", gap: "20px" }}>
                 <div style={{ display: "flex", justifyContent: "space-between" }}>
                     <div style={{ fontFamily: "inherit", fontSize: "34px", fontWeight: "550" }}>Recent Blog</div>
                     <div style={{ display: "flex", alignItems: "center" }}>View All Posts</div>
                 </div>
 
                 <div style={{ display: "flex", flexDirection: "row", gap: "100px" }}>
-                    <img src={mask1} alt="Mask1" />
-                    <img src={mask3} alt="Mask3" />
-                    <img src={mask2} alt="Mask2" />
+                    <div>
+                        <img src={mask1} alt="Mask1" />
+                        <div>First Time Home Owner Ideas</div>
+                    </div>
+                    <div>
+                        <img src={mask3} alt="Mask3" />
+                        <div>First Time Home Owner Ideas</div>
+                    </div>
+                    <div>
+                        <img src={mask2} alt="Mask2" />
+                        <div>First Time Home Owner Ideas</div>
+                    </div>
                 </div>
-            </div>
+                <div class="grid-container1">
+                <div class="item1">1</div>
+  <div class="item">2</div>
+  <div class="item">3</div>
+  <div class="item">4</div>
+  <div class="item">5</div>
+  <div class="item">6</div>
+  <div class="item">7</div>
+  <div class="item">8</div>
+</div>
 
+            </div>
         </>
     )
 }

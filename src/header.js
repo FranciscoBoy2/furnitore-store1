@@ -16,11 +16,6 @@ function Header() {
           <Route path="*" element={<NotFoundPage />} />
         </Route>
       </Routes>
-      
-        {/* <div className="buttons">
-          <button>Shop Now</button>
-          <button>Explore</button>
-        </div> */}
     </div>
   );
 }

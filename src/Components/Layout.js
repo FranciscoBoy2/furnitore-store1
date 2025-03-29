@@ -23,20 +23,17 @@ const Layout = () => {
           </div>
         </div>
         <div className="zona2" style={{ display: "flex", justifyContent: "space-between", padding: "0 150px" }}>
-          <div className="zona1" style={{ paddingTop: "100px", display: "flex", flexDirection: "column", gap: "80px", paddingTop: "90px" }}>
+          <div className="zona1" style={{ paddingTop: "100px", display: "flex", flexDirection: "column", gap: "80px" }}>
             <div className="modern" style={{ fontSize: "54px", color: "white", fontWeight: "600" }}>Modern Interior<br />Design Studio</div>
             <div className="buttons">
               <button>Shop Now</button>
               <button>Explore</button>
             </div>
           </div>
-
-
           <div className="zona2">
             <img src={couch} alt='Couch' style={{ width: "700px" }} />
           </div>
         </div>
-
       </header>
       <Outlet />
     </>
